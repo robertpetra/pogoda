@@ -11,6 +11,9 @@
 //https://api.openweathermap.org/data/2.5/weather?q=Warsaw&appid=6e2da3e5d9b9d3af615805a867be3808&units=metric
 //http://openweathermap.org/img/wn/04d@2x.png
 
+//dokumentacja
+//https://openweathermap.org/weather-conditions
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
