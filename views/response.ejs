@@ -16,6 +16,15 @@
     <p> <%= desc%></p>
     <p>Temperatura to <%=temp%></p>
     <img src="<%= ikonaUrl %>" width="300" height="300"/>
+
+    <!-- rozszerzenie  -->
+    <% if (temp> 10){ %>
+        <p>Spora ta temperatura</p>
+    <%} else {  %>
+        <p>Niezbyt duża ta temperatura</p>
+    <% }  %>
+
+
     
 </body>
 </html>
